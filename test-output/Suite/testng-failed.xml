@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="PendingStatusVerified(failed)">
+    <classes>
+      <class name="tests.TLLogin">
+        <methods>
+          <include name="isSkipped"/>
+          <include name="tearDown"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- tests.TLLogin -->
+      <class name="tests.VerifyRemarkBalnceSatuseField">
+        <methods>
+          <include name="tearDown"/>
+          <include name="quitBrowser"/>
+          <include name="isSkipped"/>
+          <include name="afterSuite"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- tests.VerifyRemarkBalnceSatuseField -->
+      <class name="tests.PendingStatusVerified">
+        <methods>
+          <include name="PendingStatusVerified" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="quitBrowser"/>
+          <include name="isSkipped"/>
+        </methods>
+      </class> <!-- tests.PendingStatusVerified -->
+    </classes>
+  </test> <!-- PendingStatusVerified(failed) -->
+</suite> <!-- Failed suite [Suite] -->

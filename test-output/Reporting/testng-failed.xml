@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Reporting]">
+  <test name="EditData(failed)">
+    <classes>
+      <class name="tests.TLLogin">
+        <methods>
+          <include name="isSkipped"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- tests.TLLogin -->
+      <class name="ReportCases.VerifyBacklogsBalance">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="isSkipped"/>
+        </methods>
+      </class> <!-- ReportCases.VerifyBacklogsBalance -->
+      <class name="ReportCases.VerifyCalculation">
+        <methods>
+          <include name="isSkipped"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- ReportCases.VerifyCalculation -->
+      <class name="ReportCases.VerifyCodiningProductionReport">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="afterSuite"/>
+          <include name="initialize"/>
+          <include name="isSkipped"/>
+        </methods>
+      </class> <!-- ReportCases.VerifyCodiningProductionReport -->
+      <class name="ReportCases.EditData">
+        <methods>
+          <include name="EditData" invocation-numbers="0"/>
+          <include name="quitBrowser"/>
+          <include name="isSkipped"/>
+        </methods>
+      </class> <!-- ReportCases.EditData -->
+    </classes>
+  </test> <!-- EditData(failed) -->
+</suite> <!-- Failed suite [Reporting] -->

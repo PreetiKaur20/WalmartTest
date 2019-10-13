@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteA">
+
+<test name="AdminLogin">
+    <classes>
+      <class name="tests.AdminLogin"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+         <test name="ClientCurentRevenuePercentage">
+    <classes>
+      <class name="ClientService.ClientCurentRevenuePercentage"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   
+  
+       <test name="ClientPercentageEstimationRevenue">
+    <classes>
+      <class name="ClientService.ClientPercentageEstimationRevenue"/>
+    </classes>
+  </test> <!-- Test -->
+  
+          <test name="ClientProjectRevenue">
+    <classes>
+      <class name="ClientService.ClientProjectRevenue"/>
+    </classes>
+  </test> <!-- Test -->
+
+      <test name="ClientProjectRevenuePercentage">
+    <classes>
+      <class name="ClientService.ClientProjectRevenuePercentage"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+    <test name="DailyProjectRevenue">
+    <classes>
+      <class name="ReportCases.DailyProjectRevenue"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+        <test name="DailyRevenueEstimatedRevenue">
+    <classes>
+      <class name="ReportCases.DailyRevenueEstimatedRevenue"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+        <test name="DailyRProjectRevenuePercentage">
+    <classes>
+      <class name="ReportCases.DailyRProjectRevenuePercentage"/>
+    </classes>
+  </test> <!-- Test -->l
+  
+     
+     <test name="DailyCurentRevenuePercentage">
+    <classes>
+      <class name="ReportCases.DailyCurentRevenuePercentage"/>
+    </classes>
+  </test> <!-- Test -->
+
+  
+       <test name="DailyRPercentageEstimationRevenue">
+    <classes>
+      <class name="ReportCases.DailyRPercentageEstimationRevenue"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+     <test name="VerticalCurentRevenuePercentage">
+    <classes>
+      <class name="VerticalReports.VerticalCurentRevenuePercentage"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+       <test name="VerticalEstimatedRevenue">
+    <classes>
+      <class name="VerticalReports.VerticalEstimatedRevenue"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+        <test name="VerticalPercentageEstimationRevenue">
+    <classes>
+      <class name="VerticalReports.VerticalPercentageEstimationRevenue"/>
+    </classes>
+  </test> <!-- Test -->
+  
+        <test name="VerticalProjectRevenue">
+    <classes>
+      <class name="VerticalReports.VerticalProjectRevenue"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+      <test name="VerticalProjectRevenuePercentage">
+    <classes>
+      <class name="VerticalReports.VerticalProjectRevenuePercentage"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+  
+   <test name="VerifyTLConnfigEdit">
+    <classes>
+      <class name="tests.VerifyTLConnfigEdit"/>
+    </classes>
+  </test> <!-- Test -->
+
+   
+
+       <test name="TLConfigurationScreen">
+    <classes>
+      <class name="tests.TLConfigurationScreen"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="VerifyTLConfigDisable">
+    <classes>
+      <class name="tests.VerifyTLConfigDisable"/>
+    </classes>
+  </test> <!-- Test -->
+     <test name="VerifyTLConfigClearBtn">
+    <classes>
+      <class name="tests.VerifyTLConfigClearBtn"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+
+     <test name="PleaseSelectAccBilRev">
+    <classes>
+      <class name="tests.PleaseSelectAccBilRev"/>
+    </classes>
+  </test> <!-- Test -->
+   
+
+       <test name="AccountConfigAccountName">
+    <classes>
+      <class name="tests.AccountConfigAccountName"/>
+    </classes>
+  </test> <!-- Test -->
+  
+      <test name="AccountConfigBillingType">
+    <classes>
+      <class name="tests.AccountConfigBillingType"/>
+    </classes>
+  </test> <!-- Test -->
+      <test name="AccountConfigRevenue">
+    <classes>
+      <class name="tests.AccountConfigRevenue"/>
+    </classes>
+  </test> <!-- Test -->
+  
+     <test name="AccountConfiguration">
+    <classes>
+      <class name="tests.AccountConfiguration"/>
+    </classes>
+  </test> <!-- Test -->
+     
+     <test name="AdminConfigCancel">
+    <classes>
+      <class name="tests.AdminConfigCancel"/>
+    </classes>
+  </test> <!-- Test -->
+    
+
+     
+
+      <test name="InactiveTLConfig">
+    <classes>
+      <class name="tests.InactiveTLConfig"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   
+
+  
+</suite> <!-- Suite -->
